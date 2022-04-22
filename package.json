@@ -2,6 +2,10 @@
   "name": "redux",
   "version": "1.0.0",
   "description": "A bug reporter and bug playback tool for redux.",
+  "engines": {
+    "node": "= 17.3.0",
+    "yarn": ">= 1.22"
+  },
   "main": "lib/index.js",
   "scripts": {
     "build:lib": "babel ./src --out-dir ./lib",
